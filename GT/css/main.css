@@ -1,0 +1,338 @@
+body{
+	background-color: #fff;
+	color: #ff5e00;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, a, img, form, button {
+	box-sizing: border-box;
+}
+ 
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	min-width: 1240px;
+	max-width: 2000px;
+	margin: 0 auto;
+	height: 100px;
+}
+
+.navigation {
+	display: flex; /* выравнивание элементов в одну строку*/
+}
+
+.navigation ul {
+	display: flex;
+	margin-left: 200px;
+	margin-top: 40px
+}
+
+.navigation ul li {
+	font-size: 16px;
+	margin-right: 50px;
+}
+
+.navigation li.active a,
+.navigation li a:hover {
+	color: #ff5e00;
+	border-top: 1px solid #ff5e00;
+	border-bottom: 1px solid #ff5e00;
+
+}
+
+.navigation ul li a {
+	color: #000;
+	padding: 12px 0;
+}
+
+.phone {
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: 30px;
+	margin-top: 40px;
+	transition: all 0.3s ease;
+}
+
+.phone:hover {
+	font-size: 25px;
+}
+
+.main {
+	width: 100%;
+	margin: 0 auto;
+	height: 550px;
+	background-image: url("../img/banner1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+
+.main nav.name {
+	color: white;
+	text-align: left;
+	padding-top: 2%;
+	padding-left: 2%;
+	font-size: 50px; /*проблема адаптивности текста*/
+}
+
+.main li.gt {
+	font-family: 'Audiowide', cursive;
+	font-size: 160px;
+	color: #ff5e00;
+	/*изменить шрифт gt*/
+}
+
+.main li.carwash {
+	font-size: 40px;
+	margin-left: 1%;
+	color: #ff5e00;
+}
+
+.main nav.info {
+	margin-top: 10%;
+	margin-left: 2%;
+}
+
+
+.main nav li {
+	color: #262626;
+	font-size: 35px;
+}
+
+.info_washing_system {
+	width: 100%;
+	margin: 0 auto;
+	height: 550px;
+	margin-top: 5%;
+
+}
+
+.info_washing_system div{
+	width: 33%;
+	
+}
+
+.info_washing_system nav{
+	display: flex;
+	padding-left: 2%;
+	
+}
+
+.info_washing_system li.washing_system_title{
+	font-size: 40px;	
+	margin-bottom: 6%;
+}
+
+.info_washing_system li.washing_system_2title, li.washing_system_3title {
+	font-size: 20px;
+	color: gray;
+	
+}
+
+.info_washing_system ul{
+	margin-top: 6%;
+}
+
+.picture_div {
+	width: 100%;
+	min-width: 1240px;
+	max-width: 2000px;
+	margin: 0 auto;
+	height: 300px;
+	background-image: url("../img/banner3.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+/*.koch_chemie {
+	width: 100%;
+	min-width: 1240px;
+	max-width: 2000px;
+	margin: 0 auto;
+	margin-top: 10px;
+	height: 200px;
+	background-color: #242424;
+	background-image: url("../img/kochchemie.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.koch_chemie div {
+	padding-top: 3%;
+}
+
+.koch_chemie li {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}*/
+
+.services {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30px;
+	height: 550px;
+	display: flex;
+	text-align: center;
+
+}
+
+ .services li.item_name {
+transition: all 0.3s ease;
+}
+
+ .services li.item_name:hover {
+ 	font-size: 30px;
+ 	color: gray;
+ }
+
+.complex_services {
+	width: 50%;
+	margin-left: 20px;
+	
+	transition: all 0.3s ease;
+}
+
+.complex_services h2 {
+	text-align: center;
+}
+
+.complex_services nav {
+	margin-bottom: 30px;
+}
+
+
+.ex_services {
+	width: 50%;
+	margin-right: 20px;
+	transition: all 0.3s ease;
+}
+
+.ex_services h2 {
+	text-align: center;
+}
+
+.ex_services nav {
+	margin-bottom: 30px;
+}
+
+.item {
+	font-size: 20px;
+}
+
+.description {
+	margin-left: 10%;
+	font-size: 14px;
+}
+
+.reservation {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 550px;
+	background-color: #242424;
+	background-image: url("../img/reserve.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.reservation a{
+	font-family: 'Russo One', sans-serif;
+	font-size: 70px;
+	color: white;
+}
+
+.reservation ul {
+	text-align: center;
+	padding-top: 22%;
+}
+
+.reservation li {
+	text-align: center;
+}
+
+.reservation a:hover {
+	color: #ff5e00;
+}
+
+.map {
+	margin-top: 5%;
+}
+
+.map li.map_title {
+	text-align: center;
+	font-size: 60px;
+}
+
+.map nav {
+	display: flex;
+	padding-left: 2%;
+	font-size: 20px;
+}
+
+.map ul {
+	margin-top: 20%;
+	padding-left: 2%;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+
+}
+
+.map ul li {
+	margin-bottom: 3%;
+}
+
+.map div{
+	width: 50%;
+
+}
+
+
+.foot {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 150px;
+	background-color: #e0e0e0;
+
+}
+
+.foot nav {
+	display: flex;
+	color: #808080;
+}
+
+.foot nav div {
+	width: 50%;
+}
+
+.foot nav div ul {
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
+.foot nav li{
+	margin-bottom: 20px;
+	color: #808080;
+}
+
+.foot nav li a{
+	color: #808080;
+}
+
+.foot nav li a:hover{
+	font-size: 20px;
+	color: #ff5e00;
+}
