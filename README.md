@@ -1,4 +1,4 @@
-# carwashGT(IN PROGRESS)
+# carwashGT(in progress)
 
 A site for carwash service.
 This project was created with the aim of learning HTML and CSS. 
